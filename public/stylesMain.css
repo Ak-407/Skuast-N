@@ -32,11 +32,42 @@ nav .a{
     font-size: 1.3rem !important;
     background-color: white !important;
     width: 829px !important;
-    height: 300px !important;
-    padding: 30px !important;
+    /* height: 300px !important;
+    padding: 30px !important; */
 }
+#Outerr {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.Outer form{
+  padding: 10px;
+  margin: 10px; 
+}
+.FB, .TB {
+  flex: 1 1 0;
 
-.FB{
+}
+.SB {
+  flex: 100%;
+  order: 3;
+  margin: 0 100px;
+}
+.LLL{
+  width: 300px;
+}
+.L{
+  width: 300px;
+}
+.LL{
+  width: 300px ;
+}
+/* .SB {
+   flex: 100%;
+   order: 3;
+   width: 50px !important;
+} */
+/* .FB{
   position: absolute;
   left: 360px;
 }
@@ -54,7 +85,7 @@ nav .a{
 }
 .FB .raise{
   width: 280px;
-}
+} */
 
 
 .Outer h1 {
@@ -62,9 +93,11 @@ nav .a{
   color: black;
   margin-bottom: 2.4rem;
 }
-.Outer form{
-    line-height: 100px !important;
-}
+/* .Outer form{ */
+    /* line-height: 100px !important; */
+  /* padding: 20px;
+  margin: 10px; 
+} */
 .raise:hover,
 .raise:focus {
   box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
